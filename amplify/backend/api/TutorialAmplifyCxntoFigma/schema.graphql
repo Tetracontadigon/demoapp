@@ -1,0 +1,15 @@
+type Post @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  likes: Int
+  photo: String
+  text: String
+}
+
+type Home @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  address: String
+  price: Int
+  image_url: String
+}
+ 

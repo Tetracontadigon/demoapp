@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "TutorialAmplifyCxntoFigma",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/tmp/amplify-cfae7413-4027-42f7-9038-a2633764a535/amplify/backend/api/TutorialAmplifyCxntoFigma/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
