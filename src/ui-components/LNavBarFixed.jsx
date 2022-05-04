@@ -6,10 +6,29 @@
 
 /* eslint-disable */
 import React from "react";
-import { getOverrideProps } from "@aws-amplify/ui-react/internal";
+import {
+  getOverrideProps,
+  useNavigateAction,
+} from "@aws-amplify/ui-react/internal";
 import { Icon, Text, View } from "@aws-amplify/ui-react";
 export default function LNavBarFixed(props) {
   const { overrides, ...rest } = props;
+  const iconThreeZeroSevenSixTwoEightFiveZeroOnClick = useNavigateAction({
+    type: "url",
+    url: "/",
+  });
+  const iconThreeZeroSevenSixTwoEightFiveFourOnClick = useNavigateAction({
+    type: "url",
+    url: "/list",
+  });
+  const vectorThreeZeroEightEightTwoSevenSevenSixOnClick = useNavigateAction({
+    type: "url",
+    url: "/",
+  });
+  const vectorThreeZeroEightNineTwoSevenEightTwoOnClick = useNavigateAction({
+    type: "url",
+    url: "/form",
+  });
   return (
     <View
       width="375px"
@@ -69,69 +88,10 @@ export default function LNavBarFixed(props) {
           bottom="9.38%"
           left="15.21%"
           right="15.21%"
-          {...getOverrideProps(overrides, "Iconsqg")}
-        ></Icon>
-      </View>
-      <View
-        width="40px"
-        height="29px"
-        position="absolute"
-        top="14px"
-        left="116px"
-        boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 417")}
-      >
-        <Icon
-          width="40px"
-          height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
-          paths={[
-            {
-              d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
-              stroke: "rgba(196,68,68,1)",
-              fillRule: "nonzero",
-              strokeWidth: 5,
-            },
-          ]}
-          position="absolute"
-          top="0px"
-          left="0px"
-          {...getOverrideProps(overrides, "Line 3")}
-        ></Icon>
-        <Icon
-          width="40px"
-          height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
-          paths={[
-            {
-              d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
-              stroke: "rgba(196,68,68,1)",
-              fillRule: "nonzero",
-              strokeWidth: 5,
-            },
-          ]}
-          position="absolute"
-          top="14px"
-          left="0px"
-          {...getOverrideProps(overrides, "Line 4")}
-        ></Icon>
-        <Icon
-          width="40px"
-          height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
-          paths={[
-            {
-              d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
-              stroke: "rgba(196,68,68,1)",
-              fillRule: "nonzero",
-              strokeWidth: 5,
-            },
-          ]}
-          position="absolute"
-          top="29px"
-          left="0px"
-          {...getOverrideProps(overrides, "Line 5")}
+          onClick={() => {
+            iconThreeZeroSevenSixTwoEightFiveZeroOnClick();
+          }}
+          {...getOverrideProps(overrides, "Icon30762850")}
         ></Icon>
       </View>
       <View
@@ -164,7 +124,7 @@ export default function LNavBarFixed(props) {
           bottom="15.71%"
           left="17.71%"
           right="17.71%"
-          {...getOverrideProps(overrides, "Iconwqx")}
+          {...getOverrideProps(overrides, "Icon30762852")}
         ></Icon>
       </View>
       <View
@@ -192,26 +152,76 @@ export default function LNavBarFixed(props) {
           bottom="9.38%"
           left="13.54%"
           right="13.54%"
-          {...getOverrideProps(overrides, "Iconcgt")}
+          onClick={() => {
+            iconThreeZeroSevenSixTwoEightFiveFourOnClick();
+          }}
+          {...getOverrideProps(overrides, "Icon30762854")}
         ></Icon>
       </View>
-      <Icon
-        width="32px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 32, height: 0 }}
-        paths={[
-          {
-            d: "M2 -4C0.895431 -4 0 -3.10457 0 -2C0 -0.895431 0.895431 0 2 0L2 -4ZM30 0C31.1046 0 32 -0.895431 32 -2C32 -3.10457 31.1046 -4 30 -4L30 0ZM2 0L30 0L30 -4L2 -4L2 0Z",
-            stroke: "rgba(229,229,229,1)",
-            fillRule: "nonzero",
-            strokeWidth: 4,
-          },
-        ]}
+      <View
+        width="48px"
+        height="48px"
         position="absolute"
-        top="12px"
-        left="329px"
-        {...getOverrideProps(overrides, "Line 6")}
-      ></Icon>
+        top="1px"
+        left="324px"
+        overflow="hidden"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "MyIcon30882775")}
+      >
+        <Icon
+          width="32px"
+          height="8px"
+          viewBox={{ minX: 0, minY: 0, width: 32, height: 8 }}
+          paths={[
+            {
+              d: "M4 0C1.8 0 0 1.8 0 4C0 6.2 1.8 8 4 8C6.2 8 8 6.2 8 4C8 1.8 6.2 0 4 0ZM28 0C25.8 0 24 1.8 24 4C24 6.2 25.8 8 28 8C30.2 8 32 6.2 32 4C32 1.8 30.2 0 28 0ZM16 0C13.8 0 12 1.8 12 4C12 6.2 13.8 8 16 8C18.2 8 20 6.2 20 4C20 1.8 18.2 0 16 0Z",
+              fill: "rgba(229,229,229,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          position="absolute"
+          top="41.67%"
+          bottom="41.67%"
+          left="16.67%"
+          right="16.67%"
+          onClick={() => {
+            vectorThreeZeroEightEightTwoSevenSevenSixOnClick();
+          }}
+          {...getOverrideProps(overrides, "Vector30882776")}
+        ></Icon>
+      </View>
+      <View
+        width="48px"
+        height="48px"
+        position="absolute"
+        top="1px"
+        left="111px"
+        overflow="hidden"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "MyIcon30892781")}
+      >
+        <Icon
+          width="40px"
+          height="40px"
+          viewBox={{ minX: 0, minY: 0, width: 40, height: 40 }}
+          paths={[
+            {
+              d: "M36 0L4 0C1.8 0 0 1.8 0 4L0 40L8 32L36 32C38.2 32 40 30.2 40 28L40 4C40 1.8 38.2 0 36 0ZM36 28L8 28L4 32L4 4L36 4L36 28Z",
+              fill: "rgba(229,229,229,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          position="absolute"
+          top="8.33%"
+          bottom="8.33%"
+          left="8.33%"
+          right="8.33%"
+          onClick={() => {
+            vectorThreeZeroEightNineTwoSevenEightTwoOnClick();
+          }}
+          {...getOverrideProps(overrides, "Vector30892782")}
+        ></Icon>
+      </View>
     </View>
   );
 }

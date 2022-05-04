@@ -15,7 +15,7 @@ type HomeMetaData = {
 export declare class Post {
   readonly id: string;
   readonly title?: string | null;
-  readonly likes?: number | null;
+  readonly likes?: string | null;
   readonly photo?: string | null;
   readonly text?: string | null;
   readonly createdAt?: string | null;

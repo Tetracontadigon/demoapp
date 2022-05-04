@@ -62,7 +62,7 @@ export default function PostLucan(props) {
           bottom="8.33%"
           left="8.33%"
           right="8.33%"
-          {...getOverrideProps(overrides, "Vector")}
+          {...getOverrideProps(overrides, "Vector30632757")}
         ></Icon>
       </View>
       <Text
@@ -180,7 +180,7 @@ export default function PostLucan(props) {
           bottom="31.35%"
           left="0%"
           right="69.73%"
-          {...getOverrideProps(overrides, "Vectornaq")}
+          {...getOverrideProps(overrides, "Vector30632763")}
         ></Icon>
         <Icon
           width="8.57421875px"
@@ -200,7 +200,7 @@ export default function PostLucan(props) {
           bottom="43.36%"
           left="24.98%"
           right="32.15%"
-          {...getOverrideProps(overrides, "Vectorhpc")}
+          {...getOverrideProps(overrides, "Vector30632764")}
         ></Icon>
         <Icon
           width="8.38671875px"
@@ -220,7 +220,7 @@ export default function PostLucan(props) {
           bottom="59.33%"
           left="58.07%"
           right="0%"
-          {...getOverrideProps(overrides, "Vectordwr")}
+          {...getOverrideProps(overrides, "Vector30632765")}
         ></Icon>
         <Icon
           width="4.2919921875px"
@@ -245,7 +245,7 @@ export default function PostLucan(props) {
           bottom="0%"
           left="21.34%"
           right="57.2%"
-          {...getOverrideProps(overrides, "Vectorfnl")}
+          {...getOverrideProps(overrides, "Vector30632766")}
         ></Icon>
         <Icon
           width="4.3193359375px"
@@ -270,7 +270,7 @@ export default function PostLucan(props) {
           bottom="7.14%"
           left="53.53%"
           right="24.88%"
-          {...getOverrideProps(overrides, "Vectorysa")}
+          {...getOverrideProps(overrides, "Vector30632767")}
         ></Icon>
       </View>
     </View>

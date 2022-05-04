@@ -62,7 +62,7 @@ export default function SocialB(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             type="favorite"
-            {...getOverrideProps(overrides, "MyIconmgq")}
+            {...getOverrideProps(overrides, "MyIcon29766875")}
           ></MyIcon>
           <Text
             fontFamily="Inter"
@@ -112,7 +112,7 @@ export default function SocialB(props) {
           height="80px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame")}
+          {...getOverrideProps(overrides, "Frame29766879")}
         >
           <Flex
             gap="16px"
@@ -123,7 +123,7 @@ export default function SocialB(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "Frameino")}
+            {...getOverrideProps(overrides, "Frame29766880")}
           >
             <Flex
               gap="16px"
@@ -134,7 +134,7 @@ export default function SocialB(props) {
               height="24px"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Framedml")}
+              {...getOverrideProps(overrides, "Frame29766881")}
             >
               <Text
                 fontFamily="Inter"
@@ -202,7 +202,7 @@ export default function SocialB(props) {
               height="24px"
               position="relative"
               padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "Framexkh")}
+              {...getOverrideProps(overrides, "Frame29766885")}
             >
               <MyIcon
                 width="24px"
@@ -212,7 +212,7 @@ export default function SocialB(props) {
                 position="relative"
                 padding="0px 0px 0px 0px"
                 type="more_horiz"
-                {...getOverrideProps(overrides, "MyIconite")}
+                {...getOverrideProps(overrides, "MyIcon29766886")}
               ></MyIcon>
             </Flex>
           </Flex>
@@ -250,7 +250,7 @@ export default function SocialB(props) {
         objectFit="cover"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Share")}
+        {...getOverrideProps(overrides, "Share29766888")}
       >
         <Flex
           gap="16px"
@@ -261,7 +261,7 @@ export default function SocialB(props) {
           height="24px"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Sharewwh")}
+          {...getOverrideProps(overrides, "Share29766889")}
         >
           <MyIcon
             width="24px"
@@ -271,7 +271,7 @@ export default function SocialB(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             type="reply"
-            {...getOverrideProps(overrides, "MyIconglg")}
+            {...getOverrideProps(overrides, "MyIcon29766890")}
           ></MyIcon>
           <Text
             fontFamily="Inter"
@@ -289,7 +289,7 @@ export default function SocialB(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="99"
-            {...getOverrideProps(overrides, "99uac")}
+            {...getOverrideProps(overrides, "9929766891")}
           ></Text>
         </Flex>
         <Flex
@@ -311,7 +311,7 @@ export default function SocialB(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             type="shuffle"
-            {...getOverrideProps(overrides, "MyIconnlp")}
+            {...getOverrideProps(overrides, "MyIcon29766893")}
           ></MyIcon>
           <Text
             fontFamily="Inter"
@@ -329,7 +329,7 @@ export default function SocialB(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="99"
-            {...getOverrideProps(overrides, "99roy")}
+            {...getOverrideProps(overrides, "9929766894")}
           ></Text>
         </Flex>
         <Flex
@@ -351,7 +351,7 @@ export default function SocialB(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             type="favorite_border"
-            {...getOverrideProps(overrides, "MyIconuju")}
+            {...getOverrideProps(overrides, "MyIcon29766896")}
           ></MyIcon>
           <Text
             fontFamily="Inter"
@@ -369,7 +369,7 @@ export default function SocialB(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="99"
-            {...getOverrideProps(overrides, "99xtt")}
+            {...getOverrideProps(overrides, "9929766897")}
           ></Text>
         </Flex>
         <MyIcon
@@ -380,7 +380,7 @@ export default function SocialB(props) {
           position="relative"
           padding="0px 0px 0px 0px"
           type="share"
-          {...getOverrideProps(overrides, "MyIconulp")}
+          {...getOverrideProps(overrides, "MyIcon29766898")}
         ></MyIcon>
       </Flex>
     </Flex>

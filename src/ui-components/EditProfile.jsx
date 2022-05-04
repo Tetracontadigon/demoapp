@@ -22,7 +22,7 @@ import {
 } from "@aws-amplify/ui-react";
 export default function EditProfile(props) {
   const { post, overrides, ...rest } = props;
-  const textFieldhhlOnClick = useNavigateAction({
+  const textFieldTwoNineSevenSixSixNineTwoThreeOnClick = useNavigateAction({
     target: "_blank",
     type: "url",
     url: "https://www.youtube.com/watch?v=FqdmWQ-ACv0&t=0s",
@@ -57,7 +57,7 @@ export default function EditProfile(props) {
           objectFit="cover"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Edit Profile")}
+          {...getOverrideProps(overrides, "Edit Profile29766913")}
         >
           <View
             width="24px"
@@ -102,7 +102,7 @@ export default function EditProfile(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Edit Profile"
-            {...getOverrideProps(overrides, "Edit Profilepzv")}
+            {...getOverrideProps(overrides, "Edit Profile29766916")}
           ></Text>
         </Flex>
         <Divider
@@ -114,7 +114,7 @@ export default function EditProfile(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Dividerhyz")}
+          {...getOverrideProps(overrides, "Divider29766917")}
         ></Divider>
         <Flex
           gap="16px"
@@ -182,7 +182,7 @@ export default function EditProfile(props) {
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldzoa")}
+            {...getOverrideProps(overrides, "TextField29766922")}
           ></TextField>
           <TextField
             display="flex"
@@ -201,9 +201,9 @@ export default function EditProfile(props) {
             labelHidden={false}
             variation="default"
             onClick={() => {
-              textFieldhhlOnClick();
+              textFieldTwoNineSevenSixSixNineTwoThreeOnClick();
             }}
-            {...getOverrideProps(overrides, "TextFieldhhl")}
+            {...getOverrideProps(overrides, "TextField29766923")}
           ></TextField>
           <TextField
             display="flex"
@@ -221,7 +221,7 @@ export default function EditProfile(props) {
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextFieldnxx")}
+            {...getOverrideProps(overrides, "TextField29766924")}
           ></TextField>
         </Flex>
         <Divider
@@ -233,7 +233,7 @@ export default function EditProfile(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divideryvv")}
+          {...getOverrideProps(overrides, "Divider29766925")}
         ></Divider>
         <Button
           display="flex"
@@ -244,10 +244,6 @@ export default function EditProfile(props) {
           alignItems="center"
           shrink="0"
           position="relative"
-          border="1px SOLID rgba(0,0,0,0)"
-          borderRadius="4px"
-          padding="7px 15px 7px 15px"
-          backgroundColor="rgba(4,125,149,1)"
           size="default"
           isDisabled={false}
           variation="primary"

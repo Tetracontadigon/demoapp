@@ -9,7 +9,7 @@ import React from "react";
 import {
   getOverrideProps,
   useDataStoreCreateAction,
-  useNavigateAction,
+  useStateMutationAction,
 } from "@aws-amplify/ui-react/internal";
 import { Post } from "../models";
 import {
@@ -22,20 +22,25 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-export default function FormForPartU(props) {
+export default function Form2(props) {
   const { post, overrides, ...rest } = props;
-  const imageOnClick = useNavigateAction({
-    target: "_blank",
-    type: "url",
-    url: post?.photo,
-  });
-  const uploadNewImageOnClick = useNavigateAction({ type: "url", url: "" });
+  const [
+    textFieldThreeOneFourSixTwoEightTwoFourValue,
+    setTextFieldThreeOneFourSixTwoEightTwoFourValue,
+  ] = useStateMutationAction("");
+  const [
+    textFieldThreeOneFourSixTwoEightTwoFiveValue,
+    setTextFieldThreeOneFourSixTwoEightTwoFiveValue,
+  ] = useStateMutationAction("");
+  const [
+    textFieldThreeOneFourSixTwoEightTwoSixValue,
+    setTextFieldThreeOneFourSixTwoEightTwoSixValue,
+  ] = useStateMutationAction("");
   const buttonOnClick = useDataStoreCreateAction({
     fields: {
-      title: "test",
-      likes: "test likes",
-      photo: "test photo",
-      text: "test desc",
+      title: textFieldThreeOneFourSixTwoEightTwoFourValue,
+      photo: textFieldThreeOneFourSixTwoEightTwoFiveValue,
+      text: textFieldThreeOneFourSixTwoEightTwoSixValue,
     },
     model: Post,
   });
@@ -48,7 +53,7 @@ export default function FormForPartU(props) {
       padding="0px 0px 0px 0px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, "FormForPartU")}
+      {...getOverrideProps(overrides, "Form2")}
     >
       <Flex
         gap="24px"
@@ -69,7 +74,7 @@ export default function FormForPartU(props) {
           objectFit="cover"
           position="relative"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Edit Profile")}
+          {...getOverrideProps(overrides, "Edit Profile31462815")}
         >
           <View
             width="24px"
@@ -113,8 +118,8 @@ export default function FormForPartU(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="New Post"
-            {...getOverrideProps(overrides, "New Post")}
+            children="Edit Profile"
+            {...getOverrideProps(overrides, "Edit Profile31462818")}
           ></Text>
         </Flex>
         <Divider
@@ -126,7 +131,7 @@ export default function FormForPartU(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divider30822856")}
+          {...getOverrideProps(overrides, "Divider31462819")}
         ></Divider>
         <Flex
           gap="16px"
@@ -146,10 +151,6 @@ export default function FormForPartU(props) {
             position="relative"
             borderRadius="160px"
             padding="0px 0px 0px 0px"
-            src={post?.photo}
-            onClick={() => {
-              imageOnClick();
-            }}
             {...getOverrideProps(overrides, "image")}
           ></Image>
           <Text
@@ -168,9 +169,6 @@ export default function FormForPartU(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Upload New Image"
-            onClick={() => {
-              uploadNewImageOnClick();
-            }}
             {...getOverrideProps(overrides, "Upload New Image")}
           ></Text>
         </Flex>
@@ -194,13 +192,19 @@ export default function FormForPartU(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Title"
-            placeholder="Rocket"
+            label="name"
+            placeholder="John Doe"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30822861")}
+            value={textFieldThreeOneFourSixTwoEightTwoFourValue}
+            onChange={(event) => {
+              setTextFieldThreeOneFourSixTwoEightTwoFourValue(
+                event.target.value
+              );
+            }}
+            {...getOverrideProps(overrides, "TextField31462824")}
           ></TextField>
           <TextField
             display="flex"
@@ -212,13 +216,19 @@ export default function FormForPartU(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Celestial Coordinates"
-            placeholder="2237+0305"
+            label="location"
+            placeholder="Seattle, WA"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30822862")}
+            value={textFieldThreeOneFourSixTwoEightTwoFiveValue}
+            onChange={(event) => {
+              setTextFieldThreeOneFourSixTwoEightTwoFiveValue(
+                event.target.value
+              );
+            }}
+            {...getOverrideProps(overrides, "TextField31462825")}
           ></TextField>
           <TextField
             display="flex"
@@ -230,13 +240,19 @@ export default function FormForPartU(props) {
             objectFit="cover"
             position="relative"
             padding="0px 0px 0px 0px"
-            label="Description"
-            placeholder="A cool rocket launch I saw yesterday."
+            label="email"
+            placeholder="john.doe@awsamplify.com"
             size="default"
             isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "TextField30822863")}
+            value={textFieldThreeOneFourSixTwoEightTwoSixValue}
+            onChange={(event) => {
+              setTextFieldThreeOneFourSixTwoEightTwoSixValue(
+                event.target.value
+              );
+            }}
+            {...getOverrideProps(overrides, "TextField31462826")}
           ></TextField>
         </Flex>
         <Divider
@@ -248,7 +264,7 @@ export default function FormForPartU(props) {
           padding="0px 0px 0px 0px"
           size="small"
           orientation="horizontal"
-          {...getOverrideProps(overrides, "Divider30822864")}
+          {...getOverrideProps(overrides, "Divider31462827")}
         ></Divider>
         <Button
           display="flex"
@@ -262,7 +278,7 @@ export default function FormForPartU(props) {
           size="default"
           isDisabled={false}
           variation="primary"
-          children="Post"
+          children="Save"
           onClick={() => {
             buttonOnClick();
           }}

@@ -20,7 +20,7 @@ export const schema = {
                 "likes": {
                     "name": "likes",
                     "isArray": false,
-                    "type": "Int",
+                    "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
@@ -156,5 +156,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "475a393eab41d90ee860521735e5baf4"
+    "version": "3b772b099576df65b782edaa57daa6fb"
 };

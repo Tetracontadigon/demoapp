@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AmplifyProvider } from '@aws-amplify/ui-react';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AmplifyProvider>
-      <App />
-    </AmplifyProvider>
+    <BrowserRouter>
+      <AmplifyProvider>
+        <App />
+      </AmplifyProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

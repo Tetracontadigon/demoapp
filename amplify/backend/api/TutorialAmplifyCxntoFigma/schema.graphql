@@ -1,7 +1,7 @@
 type Post @model @auth(rules: [{allow: public}]) {
   id: ID!
   title: String
-  likes: Int
+  likes: String
   photo: String
   text: String
 }

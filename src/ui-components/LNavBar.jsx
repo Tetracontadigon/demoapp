@@ -51,7 +51,7 @@ export default function LNavBar(props) {
         <Icon
           width="40px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
+          viewBox={{ minX: 0, minY: 0, width: 40, height: 1 }}
           paths={[
             {
               d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
@@ -68,7 +68,7 @@ export default function LNavBar(props) {
         <Icon
           width="40px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
+          viewBox={{ minX: 0, minY: 0, width: 40, height: 1 }}
           paths={[
             {
               d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
@@ -85,7 +85,7 @@ export default function LNavBar(props) {
         <Icon
           width="40px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 40, height: 0 }}
+          viewBox={{ minX: 0, minY: 0, width: 40, height: 1 }}
           paths={[
             {
               d: "M2.5 -5C1.11929 -5 0 -3.88071 0 -2.5C0 -1.11929 1.11929 0 2.5 0L2.5 -5ZM37.5 0C38.8807 0 40 -1.11929 40 -2.5C40 -3.88071 38.8807 -5 37.5 -5L37.5 0ZM2.5 0L37.5 0L37.5 -5L2.5 -5L2.5 0Z",
@@ -130,7 +130,7 @@ export default function LNavBar(props) {
           bottom="9.38%"
           left="15.21%"
           right="15.21%"
-          {...getOverrideProps(overrides, "Iconyuh")}
+          {...getOverrideProps(overrides, "Icon30702775")}
         ></Icon>
       </View>
       <View
@@ -163,7 +163,7 @@ export default function LNavBar(props) {
           bottom="15.71%"
           left="17.71%"
           right="17.71%"
-          {...getOverrideProps(overrides, "Iconlgu")}
+          {...getOverrideProps(overrides, "Icon30702773")}
         ></Icon>
       </View>
       <View
@@ -191,7 +191,7 @@ export default function LNavBar(props) {
           bottom="9.38%"
           left="13.54%"
           right="13.54%"
-          {...getOverrideProps(overrides, "Iconsow")}
+          {...getOverrideProps(overrides, "Icon30702771")}
         ></Icon>
       </View>
     </View>

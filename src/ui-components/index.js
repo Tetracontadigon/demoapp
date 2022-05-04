@@ -4,6 +4,7 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
+export { default as Form2 } from "./Form2";
 export { default as SocialB } from "./SocialB";
 export { default as HeroLayout3 } from "./HeroLayout3";
 export { default as PostLucan } from "./PostLucan";

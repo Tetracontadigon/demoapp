@@ -3,7 +3,7 @@
   "serviceConfiguration": {
     "apiName": "TutorialAmplifyCxntoFigma",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/tmp/amplify-cfae7413-4027-42f7-9038-a2633764a535/amplify/backend/api/TutorialAmplifyCxntoFigma/schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-21edba61-4c3e-4e7f-938e-020c7b732bae/amplify/backend/api/TutorialAmplifyCxntoFigma/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
       "keyDescription": "api key description",
